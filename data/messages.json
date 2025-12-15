@@ -1,0 +1,702 @@
+[
+  {
+    "id": "msg_001",
+    "timestamp": "2024-12-10T09:15:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "API 网关限流要调，现在 QPS 1000 顶不住大促"
+  },
+  {
+    "id": "msg_002",
+    "timestamp": "2024-12-10T09:18:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "我看下 Kong 配置，下午出方案"
+  },
+  {
+    "id": "msg_003",
+    "timestamp": "2024-12-10T09:22:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "顺便看下熔断策略，上次支付接口挂了没触发降级"
+  },
+  {
+    "id": "msg_004",
+    "timestamp": "2024-12-10T10:30:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "周五下午3点全员大会，B栋报告厅，必须参加"
+  },
+  {
+    "id": "msg_005",
+    "timestamp": "2024-12-10T11:05:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "新版首页设计稿出了，大家看下有没有问题 [链接]"
+  },
+  {
+    "id": "msg_006",
+    "timestamp": "2024-12-10T11:12:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "banner 位置太靠下了，用户看不到"
+  },
+  {
+    "id": "msg_007",
+    "timestamp": "2024-12-10T11:15:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "好 我调一下 还有别的吗"
+  },
+  {
+    "id": "msg_008",
+    "timestamp": "2024-12-10T14:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "又有客户投诉订单状态不更新，这个月第三次了"
+  },
+  {
+    "id": "msg_009",
+    "timestamp": "2024-12-10T14:05:00Z",
+    "sender": "李婷",
+    "channel": "#customer-feedback",
+    "content": "消息队列积压了，正在处理"
+  },
+  {
+    "id": "msg_010",
+    "timestamp": "2024-12-10T14:08:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "客户很急，能给个预计时间吗"
+  },
+  {
+    "id": "msg_011",
+    "timestamp": "2024-12-10T14:10:00Z",
+    "sender": "李婷",
+    "channel": "#customer-feedback",
+    "content": "半小时内恢复"
+  },
+  {
+    "id": "msg_012",
+    "timestamp": "2024-12-10T15:30:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "数据库主从延迟有点高，读写分离那块要优化下"
+  },
+  {
+    "id": "msg_013",
+    "timestamp": "2024-12-10T15:35:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "先加几个从库顶一下？"
+  },
+  {
+    "id": "msg_014",
+    "timestamp": "2024-12-10T15:38:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "不行，瓶颈在主库写入，得上分库分表"
+  },
+  {
+    "id": "msg_015",
+    "timestamp": "2024-12-10T16:00:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "本周新签3单，总金额82万，大单是智联的45万"
+  },
+  {
+    "id": "msg_016",
+    "timestamp": "2024-12-10T16:05:00Z",
+    "sender": "老板",
+    "channel": "#sales",
+    "content": "不错，智联那单谁跟的"
+  },
+  {
+    "id": "msg_017",
+    "timestamp": "2024-12-10T16:06:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "小孙，跟了两个月"
+  },
+  {
+    "id": "msg_018",
+    "timestamp": "2024-12-11T09:00:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "12月社保基数调整，详情看邮件"
+  },
+  {
+    "id": "msg_019",
+    "timestamp": "2024-12-11T09:30:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "CI/CD 流水线昨晚挂了，Jenkins 磁盘满了"
+  },
+  {
+    "id": "msg_020",
+    "timestamp": "2024-12-11T09:32:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "又满了？上个月刚清过"
+  },
+  {
+    "id": "msg_021",
+    "timestamp": "2024-12-11T09:35:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "构建产物太多了，我写个定时清理脚本"
+  },
+  {
+    "id": "msg_022",
+    "timestamp": "2024-12-11T10:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "用户调研结果出来了，最大痛点是找不到历史订单"
+  },
+  {
+    "id": "msg_023",
+    "timestamp": "2024-12-11T10:05:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "搜索功能确实弱，只能按订单号搜"
+  },
+  {
+    "id": "msg_024",
+    "timestamp": "2024-12-11T10:10:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "加个按时间范围和商品名搜索吧"
+  },
+  {
+    "id": "msg_025",
+    "timestamp": "2024-12-11T11:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "有客户问能不能对接他们的 ERP，用的是金蝶"
+  },
+  {
+    "id": "msg_026",
+    "timestamp": "2024-12-11T11:10:00Z",
+    "sender": "李婷",
+    "channel": "#customer-feedback",
+    "content": "技术上可以，但要评估工作量，让他们发需求文档"
+  },
+  {
+    "id": "msg_027",
+    "timestamp": "2024-12-11T14:00:00Z",
+    "sender": "老板",
+    "channel": "#leadership",
+    "content": "Q1 目标定了，营收增长 30%，大家想想怎么拆"
+  },
+  {
+    "id": "msg_028",
+    "timestamp": "2024-12-11T14:15:00Z",
+    "sender": "周琳",
+    "channel": "#leadership",
+    "content": "销售这边可以扛 15%，但得加人"
+  },
+  {
+    "id": "msg_029",
+    "timestamp": "2024-12-11T14:20:00Z",
+    "sender": "陈浩",
+    "channel": "#leadership",
+    "content": "产品侧准备上增值服务，预计贡献 10%"
+  },
+  {
+    "id": "msg_030",
+    "timestamp": "2024-12-11T15:00:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "微服务拆分方案写好了，大家review下 [文档链接]"
+  },
+  {
+    "id": "msg_031",
+    "timestamp": "2024-12-11T15:30:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "用户服务和订单服务的边界不太清楚，第三节再讨论下"
+  },
+  {
+    "id": "msg_032",
+    "timestamp": "2024-12-11T16:00:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "年会定在1月15日，问卷收集节目报名 [链接]"
+  },
+  {
+    "id": "msg_033",
+    "timestamp": "2024-12-12T09:00:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "Kong 升级方案好了，需要停服10分钟，定在周六凌晨"
+  },
+  {
+    "id": "msg_034",
+    "timestamp": "2024-12-12T09:05:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "行，我来写公告"
+  },
+  {
+    "id": "msg_035",
+    "timestamp": "2024-12-12T10:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "大客户想要私有化部署，报价怎么算"
+  },
+  {
+    "id": "msg_036",
+    "timestamp": "2024-12-12T10:10:00Z",
+    "sender": "老板",
+    "channel": "#customer-feedback",
+    "content": "先了解规模和需求，我们单独开会评估"
+  },
+  {
+    "id": "msg_037",
+    "timestamp": "2024-12-12T11:00:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "监控告警太多了，一晚上200条，大部分是误报"
+  },
+  {
+    "id": "msg_038",
+    "timestamp": "2024-12-12T11:05:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "阈值调一下，另外加个告警聚合"
+  },
+  {
+    "id": "msg_039",
+    "timestamp": "2024-12-12T14:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "竞品分析做完了，主要差距在移动端体验"
+  },
+  {
+    "id": "msg_040",
+    "timestamp": "2024-12-12T14:10:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "移动端确实欠账多，Q2 重点补"
+  },
+  {
+    "id": "msg_041",
+    "timestamp": "2024-12-12T15:00:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "丢了一单，客户嫌我们没有审批流功能"
+  },
+  {
+    "id": "msg_042",
+    "timestamp": "2024-12-12T15:05:00Z",
+    "sender": "陈浩",
+    "channel": "#sales",
+    "content": "审批流在 roadmap 里，Q1 能上"
+  },
+  {
+    "id": "msg_043",
+    "timestamp": "2024-12-12T15:10:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "能提前吗，好几个客户都问过"
+  },
+  {
+    "id": "msg_044",
+    "timestamp": "2024-12-13T09:00:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "安全扫描报告出来了，有两个高危漏洞要尽快修"
+  },
+  {
+    "id": "msg_045",
+    "timestamp": "2024-12-13T09:10:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "哪两个？我看下"
+  },
+  {
+    "id": "msg_046",
+    "timestamp": "2024-12-13T09:12:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "SQL注入和XSS，详情在邮件里"
+  },
+  {
+    "id": "msg_047",
+    "timestamp": "2024-12-13T10:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "客户说数据导出太慢了，10万条要等5分钟"
+  },
+  {
+    "id": "msg_048",
+    "timestamp": "2024-12-13T10:05:00Z",
+    "sender": "王磊",
+    "channel": "#customer-feedback",
+    "content": "改成异步导出，完成后发通知"
+  },
+  {
+    "id": "msg_049",
+    "timestamp": "2024-12-13T11:00:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "新同事入职：前端开发小林，大家欢迎"
+  },
+  {
+    "id": "msg_050",
+    "timestamp": "2024-12-13T11:05:00Z",
+    "sender": "陈浩",
+    "channel": "#announcements",
+    "content": "欢迎欢迎！"
+  },
+  {
+    "id": "msg_051",
+    "timestamp": "2024-12-13T14:00:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "日志存储成本太高了，一个月8000块"
+  },
+  {
+    "id": "msg_052",
+    "timestamp": "2024-12-13T14:10:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "保留策略改成30天，老日志归档到 S3"
+  },
+  {
+    "id": "msg_053",
+    "timestamp": "2024-12-13T15:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "帮助文档要重写，现在的太技术了用户看不懂"
+  },
+  {
+    "id": "msg_054",
+    "timestamp": "2024-12-13T15:30:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "下周有个大客户演示，需要技术支持"
+  },
+  {
+    "id": "msg_055",
+    "timestamp": "2024-12-13T15:35:00Z",
+    "sender": "李婷",
+    "channel": "#sales",
+    "content": "我来，发下客户背景和关注点"
+  },
+  {
+    "id": "msg_056",
+    "timestamp": "2024-12-14T09:00:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "准备引入 Redis 集群，单机扛不住了"
+  },
+  {
+    "id": "msg_057",
+    "timestamp": "2024-12-14T09:10:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "用云服务还是自建？"
+  },
+  {
+    "id": "msg_058",
+    "timestamp": "2024-12-14T09:15:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "先用云服务，自建运维成本太高"
+  },
+  {
+    "id": "msg_059",
+    "timestamp": "2024-12-14T10:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "客户要批量修改价格的功能，现在只能一个个改"
+  },
+  {
+    "id": "msg_060",
+    "timestamp": "2024-12-14T10:10:00Z",
+    "sender": "陈浩",
+    "channel": "#customer-feedback",
+    "content": "加到需求池了，优先级P2"
+  },
+  {
+    "id": "msg_061",
+    "timestamp": "2024-12-14T11:00:00Z",
+    "sender": "老板",
+    "channel": "#leadership",
+    "content": "竞对拿了融资，我们要加快产品迭代"
+  },
+  {
+    "id": "msg_062",
+    "timestamp": "2024-12-14T11:10:00Z",
+    "sender": "陈浩",
+    "channel": "#leadership",
+    "content": "收到，这周出个加速计划"
+  },
+  {
+    "id": "msg_063",
+    "timestamp": "2024-12-14T14:00:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "测试环境又挂了，是谁把配置改了"
+  },
+  {
+    "id": "msg_064",
+    "timestamp": "2024-12-14T14:05:00Z",
+    "sender": "小林",
+    "channel": "#tech-architecture",
+    "content": "不好意思，我改的，忘了切分支"
+  },
+  {
+    "id": "msg_065",
+    "timestamp": "2024-12-14T14:10:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "没事，新人先熟悉下 Git 工作流"
+  },
+  {
+    "id": "msg_066",
+    "timestamp": "2024-12-14T15:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "下个版本的需求评审定在周三，大家准备下"
+  },
+  {
+    "id": "msg_067",
+    "timestamp": "2024-12-14T16:00:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "月底冲刺，还差40万完成目标，大家加油"
+  },
+  {
+    "id": "msg_068",
+    "timestamp": "2024-12-15T09:00:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "支付回调偶尔丢消息，要加重试机制"
+  },
+  {
+    "id": "msg_069",
+    "timestamp": "2024-12-15T09:10:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "用消息队列保证，配合幂等处理"
+  },
+  {
+    "id": "msg_070",
+    "timestamp": "2024-12-15T10:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "客户想要自定义报表，现在的模板不够用"
+  },
+  {
+    "id": "msg_071",
+    "timestamp": "2024-12-15T10:30:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "体检安排出来了，下周一到周五，自己约时间"
+  },
+  {
+    "id": "msg_072",
+    "timestamp": "2024-12-15T11:00:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "数据库备份策略要改，现在恢复测试没通过"
+  },
+  {
+    "id": "msg_073",
+    "timestamp": "2024-12-15T14:00:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "AI 助手功能调研完了，技术可行，就是成本不低"
+  },
+  {
+    "id": "msg_074",
+    "timestamp": "2024-12-15T14:10:00Z",
+    "sender": "老板",
+    "channel": "#product-design",
+    "content": "先做MVP验证，成本后面再优化"
+  },
+  {
+    "id": "msg_075",
+    "timestamp": "2024-12-15T15:00:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "代码覆盖率掉到60%了，要补测试"
+  },
+  {
+    "id": "msg_076",
+    "timestamp": "2024-12-15T15:10:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "纳入CR标准，覆盖率不到70%不给合"
+  },
+  {
+    "id": "msg_077",
+    "timestamp": "2024-12-16T09:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "NPS调研结果：35分，主要抱怨是响应慢和功能不全"
+  },
+  {
+    "id": "msg_078",
+    "timestamp": "2024-12-16T09:30:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "竞标输了，对方报价低30%"
+  },
+  {
+    "id": "msg_079",
+    "timestamp": "2024-12-16T09:35:00Z",
+    "sender": "老板",
+    "channel": "#sales",
+    "content": "不打价格战，我们拼服务和产品力"
+  },
+  {
+    "id": "msg_080",
+    "timestamp": "2024-12-16T10:00:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "灰度发布系统要升级，支持按用户ID分流"
+  },
+  {
+    "id": "msg_081",
+    "timestamp": "2024-12-16T11:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "又有客户要多语言支持，英语和日语"
+  },
+  {
+    "id": "msg_082",
+    "timestamp": "2024-12-16T11:10:00Z",
+    "sender": "陈浩",
+    "channel": "#customer-feedback",
+    "content": "国际化排到Q2了，现在没人手"
+  },
+  {
+    "id": "msg_083",
+    "timestamp": "2024-12-16T14:00:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "周六上线前再过一遍检查清单"
+  },
+  {
+    "id": "msg_084",
+    "timestamp": "2024-12-16T14:30:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "节日福利方案投票，三选一 [链接]"
+  },
+  {
+    "id": "msg_085",
+    "timestamp": "2024-12-16T15:00:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "服务器证书下个月到期，要续"
+  },
+  {
+    "id": "msg_086",
+    "timestamp": "2024-12-16T15:05:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "换成 Let's Encrypt 自动续期"
+  },
+  {
+    "id": "msg_087",
+    "timestamp": "2024-12-17T09:00:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "在线客服功能需求文档写好了，评审排周四"
+  },
+  {
+    "id": "msg_088",
+    "timestamp": "2024-12-17T10:00:00Z",
+    "sender": "周琳",
+    "channel": "#sales",
+    "content": "这周新增5个线索，3个是转介绍"
+  },
+  {
+    "id": "msg_089",
+    "timestamp": "2024-12-17T10:30:00Z",
+    "sender": "王磊",
+    "channel": "#tech-architecture",
+    "content": "慢SQL又出现了，老问题没根治"
+  },
+  {
+    "id": "msg_090",
+    "timestamp": "2024-12-17T10:35:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "开个专项治理一下，本周出方案"
+  },
+  {
+    "id": "msg_091",
+    "timestamp": "2024-12-17T11:00:00Z",
+    "sender": "刘洋",
+    "channel": "#customer-feedback",
+    "content": "大客户续约了，加了20%的量"
+  },
+  {
+    "id": "msg_092",
+    "timestamp": "2024-12-17T11:05:00Z",
+    "sender": "老板",
+    "channel": "#customer-feedback",
+    "content": "好消息！服务好他们"
+  },
+  {
+    "id": "msg_093",
+    "timestamp": "2024-12-17T14:00:00Z",
+    "sender": "小林",
+    "channel": "#tech-architecture",
+    "content": "前端构建太慢了，要5分钟"
+  },
+  {
+    "id": "msg_094",
+    "timestamp": "2024-12-17T14:10:00Z",
+    "sender": "吴斌",
+    "channel": "#tech-architecture",
+    "content": "上 esbuild，能快10倍"
+  },
+  {
+    "id": "msg_095",
+    "timestamp": "2024-12-17T15:00:00Z",
+    "sender": "陈浩",
+    "channel": "#product-design",
+    "content": "权限系统重构提上日程，现在的太乱了"
+  },
+  {
+    "id": "msg_096",
+    "timestamp": "2024-12-17T15:30:00Z",
+    "sender": "李婷",
+    "channel": "#tech-architecture",
+    "content": "RBAC还是ABAC？先定方向"
+  },
+  {
+    "id": "msg_097",
+    "timestamp": "2024-12-17T16:00:00Z",
+    "sender": "HR小王",
+    "channel": "#announcements",
+    "content": "明天团建，下午2点出发，记得穿运动鞋"
+  },
+  {
+    "id": "msg_098",
+    "timestamp": "2024-12-17T16:30:00Z",
+    "sender": "张明",
+    "channel": "#tech-architecture",
+    "content": "技术债统计出来了，总共47项，高优先级12项"
+  },
+  {
+    "id": "msg_099",
+    "timestamp": "2024-12-17T17:00:00Z",
+    "sender": "老板",
+    "channel": "#leadership",
+    "content": "明年招聘计划要提前准备，技术和销售都要加人"
+  },
+  {
+    "id": "msg_100",
+    "timestamp": "2024-12-17T17:30:00Z",
+    "sender": "赵雪",
+    "channel": "#product-design",
+    "content": "2025 产品路线图初稿好了，大家看看 [链接]"
+  }
+]
