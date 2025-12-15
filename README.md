@@ -92,7 +92,7 @@ Deliver: Interactive demo
 
 ## Submission
 
-Send to [your-email] with:
+Send to yuxinyue3@gmail.com with:
 - GitHub repo link
 - Live demo URL
 - Which task you chose (A/B/C)
